@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.image-container{
+    align-items: center;
+}
+.image-container img{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background-color: blueviolet;
+    width: 283px;
+    height: 280px;
+
+}
+.btn{
+    margin:20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(3, 2, 37);
+    color: rgb(255, 65, 65);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.8);
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: aqua;
+    opacity: 0.9;
+}
