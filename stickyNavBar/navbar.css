@@ -1,0 +1,58 @@
+body{
+    margin:0
+}
+.top-container{
+    background-image: url(https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    letter-spacing: 3px;
+}
+.text{
+    margin: 50px 5%;
+    font-family: cursive;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.4s;
+    font-size: 20px;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar ul li a:hover{
+    color: brown;
+}
+
+.navbar.active{
+   background-color: rgb(6, 114, 134);
+}
+
+.navbar.active ul li a{
+    color: white;
+}
