@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgba(42, 165, 71, 0.525);
+}
+.vivek{
+    background-color: blueviolet;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(16, 15, 15, 0.3);
+    color:blue;
+    position: relative;
+    overflow: hidden;
+  
+    
+    
+}
+.vivek span{
+    position: relative;
+    z-index: 1;
+   
+    
+}
+.vivek::before{
+    content: "";
+    position: absolute;
+    background-color: brown;
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top:var(--yPos);
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+}
+.vivek:hover::before{
+    width: 300px;
+    height: 300px;
+}
