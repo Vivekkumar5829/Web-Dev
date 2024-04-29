@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Menu</title>
+</head>
+<body>
+    <h1 id="display">0</h1>
+    <div id="block">
+        <button id="increase"  class="button">Increase</button>
+        <button id="reset" class="button">Reset</button>
+        <button id="decrease" class="button">Decrease</button>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
